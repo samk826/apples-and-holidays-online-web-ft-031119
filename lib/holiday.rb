@@ -67,7 +67,7 @@ bbq_holidays=[]
   holiday_hash.each do |firstx, secondx|
 secondx.each do |month, supplies|
   if supplies.include?("BBQ")
-holiday_hash<<month
+holiday_hash << month
 end
 end
 end # return an array of holiday names (as symbols) where supply lists
