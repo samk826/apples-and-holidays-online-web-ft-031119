@@ -71,6 +71,6 @@ bbq_holidays << month
 end
 end
 end # return an array of holiday names (as symbols) where supply lists
-holiday_hash  # include the string "BBQ"
+bbq_holidays  # include the string "BBQ"
 
 end
