@@ -69,7 +69,8 @@ secondx.each do |month, supplies|
   if supplies.include?("BBQ")
 holiday_hash<<month
 end
-end  # return an array of holiday names (as symbols) where supply lists
+end
+end # return an array of holiday names (as symbols) where supply lists
 holiday_hash  # include the string "BBQ"
 
 end
